@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<script
+  src="https://code.jquery.com/jquery-3.4.1.js"> 
+</script>
+  <script type="text/javascript" src="testjquery.js"></script>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	
+
+
+	<title>
+		my first game using jquery
+	</title>
+	
+
+</head>
+<body>
+	<div class="container">
+		<div class="jumbotron">
+	
+	<button class="btn btn-primary btn-lg active" role="button" aria-pressed="true" onclick="generate()"> start/restart </button>
+	<button class="btn btn-danger btn-lg active" role="button" aria-pressed="true" onclick="restart()"> what was the number ?   
+	</button>
+
+	<div id="lost"> </div>
+	
+	<div id="number"></div>
+	<input type="number" name="" id="guessednumber" placeholder="can you remember what was the number " style="width: 335px">
+	<button class="btn btn-success" onclick="compare()" id="try"> 
+	let's try  
+</button>
+</div>
+</div>
+</body>
+
+</html>
